@@ -1,9 +1,16 @@
-### IntelliJ IDEA ###
+# Ignorar arquivos de compilação do IntelliJ IDEA
 out/
+
+# Permitir diretórios 'out/' dentro de 'src/main/' e 'src/test/'
 !**/src/main/**/out/
 !**/src/test/**/out/
+
+# Ignorar arquivos de configuração do IntelliJ IDEA
 !**/*.iml
 *.iml
+
+# Ignorar arquivos de bibliotecas de usuário do IntelliJ IDEA
+*.userlibraries
 
 ### Eclipse ###
 .apt_generated

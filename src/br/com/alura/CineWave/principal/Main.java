@@ -1,3 +1,5 @@
+package br.com.alura.CineWave.principal;
+
 import br.com.alura.CineWave.calculo.CalculadoraDeTempo;
 import br.com.alura.CineWave.calculo.FiltroRecomendacao;
 import br.com.alura.CineWave.modelos.Episodio;
