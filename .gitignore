@@ -8,6 +8,7 @@ out/
 # Ignorar arquivos de configuração do IntelliJ IDEA
 !**/*.iml
 *.iml
+*.eml
 
 # Ignorar arquivos de bibliotecas de usuário do IntelliJ IDEA
 *.userlibraries
