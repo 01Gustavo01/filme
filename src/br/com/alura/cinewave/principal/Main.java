@@ -1,10 +1,10 @@
-package br.com.alura.CineWave.principal;
+package br.com.alura.cinewave.principal;
 
-import br.com.alura.CineWave.calculo.CalculadoraDeTempo;
-import br.com.alura.CineWave.calculo.FiltroRecomendacao;
-import br.com.alura.CineWave.modelos.Episodio;
-import br.com.alura.CineWave.modelos.Movie;
-import br.com.alura.CineWave.modelos.Serie;
+import br.com.alura.cinewave.calculo.CalculadoraDeTempo;
+import br.com.alura.cinewave.calculo.FiltroRecomendacao;
+import br.com.alura.cinewave.modelos.Episodio;
+import br.com.alura.cinewave.modelos.Movie;
+import br.com.alura.cinewave.modelos.Serie;
 
 import java.util.ArrayList;
 

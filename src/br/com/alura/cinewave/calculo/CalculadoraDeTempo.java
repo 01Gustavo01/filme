@@ -1,7 +1,5 @@
-package br.com.alura.CineWave.calculo;
-import br.com.alura.CineWave.modelos.Movie;
-import br.com.alura.CineWave.modelos.Serie;
-import br.com.alura.CineWave.modelos.Title;
+package br.com.alura.cinewave.calculo;
+import br.com.alura.cinewave.modelos.Title;
 
 public class CalculadoraDeTempo {
     private int tempoTotal = 0;

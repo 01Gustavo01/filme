@@ -1,6 +1,6 @@
-package br.com.alura.CineWave.modelos;
+package br.com.alura.cinewave.modelos;
 
-public class Title {
+public class Title implements Comparable<Title>{
     private String nome;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
@@ -67,5 +67,10 @@ public class Title {
 
     public double pegaMedia() {
         return somaDasAvaliacoes / totalDeAvalicoes;
+    }
+
+    @Override
+    public int compareTo(Title outroTitulo) {
+        return this.getNome().compareTo(outroTitulo.getNome());
     }
 }

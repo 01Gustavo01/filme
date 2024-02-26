@@ -1,4 +1,4 @@
-package br.com.alura.CineWave.calculo;
+package br.com.alura.cinewave.calculo;
 
 public class FiltroRecomendacao {
     private String recomendacao;

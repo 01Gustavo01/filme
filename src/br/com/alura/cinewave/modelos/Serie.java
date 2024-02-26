@@ -1,4 +1,4 @@
-package br.com.alura.CineWave.modelos;
+package br.com.alura.cinewave.modelos;
 
 public class Serie extends Title{
     private int temporadas;
@@ -45,5 +45,10 @@ public class Serie extends Title{
     @Override
     public int getDuracaoEmMinutos() {
         return temporadas * episodiosPorTemporada * minutosPorEpisodio;
+    }
+
+    @Override
+    public String toString() {
+        return "Serie: " +this.getNome() + "(" + this.getAnoDeLancamento() +")";
     }
 }

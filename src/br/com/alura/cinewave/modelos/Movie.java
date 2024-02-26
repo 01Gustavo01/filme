@@ -1,6 +1,6 @@
-package br.com.alura.CineWave.modelos;
+package br.com.alura.cinewave.modelos;
 
-import br.com.alura.CineWave.calculo.Classificavel;
+import br.com.alura.cinewave.calculo.Classificavel;
 
 public class Movie extends Title implements Classificavel {
     private String diretor;

@@ -1,6 +1,6 @@
-package br.com.alura.CineWave.modelos;
+package br.com.alura.cinewave.modelos;
 
-import br.com.alura.CineWave.calculo.Classificavel;
+import br.com.alura.cinewave.calculo.Classificavel;
 
 public class Episodio implements Classificavel {
     private int numero;
