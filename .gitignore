@@ -38,3 +38,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Arquivo específico a ser ignorado
+principalComBusca.java
